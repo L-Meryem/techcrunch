@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 5px 20px;
+}
+
+main {
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    background-color: rgb(240, 240, 240);
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.vid {
+    float: left;
+    width: 70%;
+}
+
+.features {
+    float: right;
+    width: 30%;
+}
+
+header>h1 img {
+    float: left;
+    width: 11%;
+    margin-bottom: 10px;
+
+}
+
+header>div {
+    float: right;
+    width: 89%;
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.bottom {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.top>p {
+    color: gray;
+    padding-top: 10px;
+}
+
+.top>ul {
+    display: flex;
+    align-items: center;
+}
+
+.top>ul li:first-child {
+    color: gray;
+}
+
+.top>p a {
+    color: green;
+    font-weight: bold;
+}
+
+.top>ul img {
+    width: 25px;
+}
+
+
+.bottom div {
+    display: flex;
+    gap: 10px;
+}
+
+
+.bottom nav ul {
+    font-size: 1.4rem;
+}
+
+.bottom nav a {
+    color: rgb(78, 78, 78);
+
+}
+
+
+
+header .announce {
+    width: 100%;
+    clear: both;
+    background-color: rgb(8, 82, 8);
+    color: rgb(198, 198, 198);
+    text-align: center;
+    padding: 10px 0;
+}
+
+header .announce strong {
+    color: white;
+}
+
+header .announce a {
+    font-weight: bold;
+    color: white;
+}
+
+header {
+    overflow: auto;
+}
+
+header .socials {
+    float: right;
+    width: fit-content;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    padding-left: 16px;
+}
+
+
+header nav img,
+header>p img {
+    width: 10px;
+}
+
+header>p img {
+    position: relative;
+    top: 3px;
+}
+
+header .socials li {
+    padding: 4px 6px;
+
+}
+
+header form input {
+    padding: 6px;
+    color: rgb(14, 156, 26);
+    border: 1px solid rgb(168, 168, 168);
+    min-width: 200px;
+    margin-left: -4px;
+}
+
+header form input::placeholder {
+    font-weight: bold;
+    color: rgb(14, 156, 26);
+
+}
+
+header form button {
+    padding: 6px;
+    color: white;
+    border: 1px solid rgb(168, 168, 168);
+    border-left: none;
+    width: 30%;
+    margin-left: -4px;
+    width: 30px;
+    background-image: url("../assets/search.png");
+    background-size: contain;
+    color: transparent;
+}
+
+header .bottom div>a {
+    background-color: rgb(70, 70, 70);
+    display: inline-block;
+    padding: 5px 20px;
+    color: white;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}
+
+header .bottom div img {
+    width: 20px;
+}
+
+aside>p {
+    padding: 20px 10px;
+    border-top: 6px solid rgb(165, 165, 165);
+    border-bottom: 6px solid rgb(165, 165, 165);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(81, 81, 81);
+    margin-right: 4px;
+}
+
+aside>p a {
+    color: rgb(14, 148, 14);
+}
+
+aside section>h3 {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(7, 86, 7);
+    padding: 10px 6px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+aside section form {
+    margin: 0 8px;
+    padding: 10px 5px;
+    background-color: white;
+
+}
+
+aside section form h5 {
+    display: inline;
+    font-size: 1.05rem;
+}
+
+aside section form p {
+    padding-left: 16px;
+    color: gray;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+aside input[type="email"] {
+    padding: 6px;
+    border: 1px solid rgb(168, 168, 168);
+    width: 66%;
+
+}
+
+aside input[type="submit"] {
+    padding: 6px;
+    background-color: rgb(26, 161, 26);
+    color: white;
+    border: 1px solid rgb(168, 168, 168);
+    width: 30%;
+    margin-left: -4px;
+
+}
+
+aside form>a {
+    text-align: center;
+    padding: 20px 5px;
+    display: block;
+}
+
+main .vid h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 20px 0;
+
+}
+
+main .vid h1 span {
+    color: green;
+}
+
+main .vid video {
+    width: 100%;
+}
+
+main .vid {
+    padding-right: 20px;
+}
+
+main .vid p {
+    color: gray;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.features h2 {
+    color: rgb(72, 72, 72);
+    padding: 22px 0;
+    font-size: 1.8rem;
+}
+
+.features section img {
+    width: 25%;
+}
+
+
+.features section div {
+    width: 60%;
+    padding-left: 10px;
+}
+
+.features section>* {
+    float: left;
+}
+
+.features section span {
+    color: gray;
+    font-style: italic;
+}
+
+.features section h3 {
+    font-size: 1.2rem;
+}
+
+.features section {
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1240px) {
+
+    aside {
+        float: none;
+        clear: both;
+        width: 70%;
+    }
+
+    main {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .features {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .features>* {
+        width: 50%;
+    }
+
+    .features h2 {
+        flex-basis: 100%;
+    }
+
+    .vid {
+        width: 100%;
+    }
+
+    aside {
+        width: 95%;
+        margin: auto;
+    }
+
+    header .bottom,
+    header top {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        margin-bottom: 20px;
+
+    }
+
+    header>h1 img {
+        width: 30%;
+    }
+
+    header>div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header .top {
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .features>* {
+        width: 100%;
+    }
+
+    header>h1 img {
+        float: none;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    header>h1 {
+        text-align: center;
+    }
+
+    header>div {
+        width: 100%;
+        float: none;
+    }
+
+    .top {
+        justify-content: space-between;
+    }
+
+    .top>p {
+        flex: 0.8;
+    }
+
+    .top>ul {
+        flex: 1.2;
+    }
+
+    header .bottom,
+    header top {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    header .top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .features section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+
+    }
+
+    .features section img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .features section div {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .bottom div,
+    .bottom {
+        flex-direction: column;
+
+    }
+
+
+
+    .bottom nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header .bottom,
+    header .top {
+        justify-content: left;
+    }
+
+    header .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 40px);
+        width: 100%;
+        justify-content: center;
+    }
+
+    header .socials li:first-child {
+        grid-column: 1/4;
+
+    }
+
+    header form input {
+        min-width: 80px;
+    }
+
+        .bottom div{
+            width: 100%;
+            margin: auto;
+           align-items: center;
+        }
+
+    header form input {
+        max-width: 80%;
+    }
+
+    header .bottom div>a {
+        width: 60%;
+    }
+
+    header .bottom div img {
+        display: none;
+    }
+
+    aside input[type="submit"]{
+        display: block;
+        width: 80%;
+        margin-top: 10px;
+        margin: 10px auto;
+    }
+
+    aside input[type="email"] {
+        margin-left: 15px;
+        width: 80%;
+    }
+
+        .bottom nav ul{
+            align-items: center;
+        }
+}
